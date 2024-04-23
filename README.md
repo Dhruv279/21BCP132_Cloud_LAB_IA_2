@@ -1,6 +1,5 @@
 Certainly! Here's a properly formatted markdown file for the README:
 
-```markdown
 # Three-Tier Application with Docker
 
 This repository contains a three-tier application built using Docker, consisting of frontend, backend, and MongoDB database.
