@@ -1,17 +1,15 @@
-Certainly! Here's a properly formatted markdown file for the README:
-
 # Three-Tier Application with Docker
 
 This repository contains a three-tier application built using Docker, consisting of frontend, backend, and MongoDB database.
 
 ## Prerequisites
 
-- Docker installed on your machine: [Install Docker](https://docs.docker.com/get-docker/)
-- Docker Compose (usually comes with Docker installation): [Install Docker Compose](https://docs.docker.com/compose/install/)
+- Docker installed on your machine: [![Docker](https://img.shields.io/badge/Docker-Ready-blue?logo=docker)](https://docs.docker.com/get-docker/)
+- Docker Compose (usually comes with Docker installation): [![Docker Compose](https://img.shields.io/badge/Docker%20Compose-Ready-blue?logo=docker)](https://docs.docker.com/compose/install/)
 
 ## Components
 
-1. **Frontend**: A simple web frontend built with [React.js](https://reactjs.org/).
+1. **Frontend**: A simple web frontend built with [![React.js](https://img.shields.io/badge/React.js-16.13.1-blue?logo=react)](https://reactjs.org/).
 2. **Backend**: A Node.js backend API.
 3. **Database**: MongoDB as the database.
 
@@ -19,8 +17,8 @@ This repository contains a three-tier application built using Docker, consisting
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/three-tier-docker-app.git
-   cd three-tier-docker-app
+   git clone https://github.com/Dhruv279/21BCP132_Cloud_LAB_IA_2.git
+   cd 21BCP132_Cloud_LAB_IA_2
    ```
 
 2. Build and start the application using Docker Compose:
@@ -54,24 +52,22 @@ The `docker-compose.yml` file defines the services and their configurations:
 ## Project Structure
 
 ```
-.
-├── backend/            # Backend API source code
-│   ├── Dockerfile      # Dockerfile for building the backend image
-│   └── ...             # Other backend files
-├── frontend/           # Frontend source code
-│   ├── Dockerfile      # Dockerfile for building the frontend image
-│   └── ...             # Other frontend files
-├── docker-compose.yml  # Docker Compose configuration file
-└── README.md           # This README file
+21BCP132_CLOUD_LAB_IA2
+├── backend
+│   ├── Dockerfile
+│   ├── server.js
+├── frontend
+│   ├── Public
+│   ├── src
+│   │   ├── Components
+│   └── package.json
+├── database
+│   ├── Dockerfile
+│   └── init.js
+└── docker-compose.yml
+
 ```
 
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-This markdown file provides clear instructions on how to set up and run the application, along with the project structure and other necessary information.
